@@ -3,7 +3,6 @@ package mesClassesTeste;
 import static org.junit.Assert.assertEquals;
 
 
-import org.junit.Before;
 import org.junit.Test;
 
 import mesClasses.Calcul;
@@ -11,13 +10,8 @@ import mesClasses.Calcul;
 public class TesteCalcul {
 
   //creation de l'objet	
-	Calcul c1 ;
-	@Before
-	public  void setUpBeforeClass() throws Exception {
-	//instanciation de l'objet
-		c1 = new Calcul();
-	}                                                              
-                                                                                                 
+	Calcul c1 = new Calcul();
+	                                                                                          
 	@Test                                                          
 	public void testAddition() {                                   
 	//teste de la methode addition                                 
